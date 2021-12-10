@@ -1,0 +1,67 @@
+/* ---------- list  --------- */
+
+.list {
+    border-collapse     : collapse;
+}
+
+/* Sortable tables */
+
+table.list a.sortheader {
+    text-decoration     : none;
+    display             : block;
+}
+table.list span.sortarrow {
+    color               : #000000;
+    text-decoration     : none;
+}
+
+.list th {
+    text-align          : left;
+    border-top          : solid 1px #888888;
+
+}
+#cpe_location table .list th {
+	text-transform: uppercase;
+
+}
+.list th, .list td {
+    border-right        : solid 1px #888888;
+    border-left         : solid 1px #888888;
+    border-bottom       : solid 1px #888888;
+}
+
+.list th a:link, th a:visited, th a:active {
+    color               : #000000;
+    text-decoration     : none;
+}
+
+.list th a:hover {
+    text-decoration     : underline;
+}
+
+.list thead {
+    text-align          : left;
+    background          : #EDEDED;
+    border-right        : 1px solid #ffffff;
+    border-bottom       : 1px solid #ffffff;
+}
+
+.list tfoot {
+    text-align          : left;
+    background          : #EDEDED;
+    border-right        : 1px solid #ffffff;
+    border-bottom       : 1px solid #ffffff;
+}
+
+.list sort {
+    background-color    : #ABBEEF;
+}
+
+.list evenrowbg {
+    background-color    : #F9F8F8;
+}
+
+.list oddrowbg {
+    background-color    : #FFFFFF;
+}
+

@@ -1,0 +1,20 @@
+/*
+
+    BS2v3 (c) 2005 Mike Gaertner
+
+    Version: $Id: print.css 1 2008-04-22 05:09:20Z mg $
+
+*/
+
+@import url("table.css");
+@import url("style.css");
+
+
+body {
+	color		: #000000; 	
+	background	: #FFFFFF;
+}
+
+.screenTitle {
+	background	: #FFFFFF;
+}

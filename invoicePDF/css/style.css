@@ -1,0 +1,201 @@
+/*
+
+    BS2v3 (c) 2005 Mike Gaertner
+
+    Version: $Id: style.css 8 2008-05-30 05:44:56Z mg $
+
+*/
+@font-face {
+    font-family: MEF2;
+    src: url(KHMERMEF2.ttf);
+}
+@font-face {
+    font-family: BTB;
+    src: url(Battambang-Regular.ttf);
+}
+.mef1{
+	font-family:BTB;
+	font-size:12px;
+}
+.mef2{
+	font-family:MEF2;
+}
+
+body {
+    margin: 		10px;
+    color:		#000000;
+    background-color:	#ffffff; 
+}
+
+
+/* changes colour of focused input box */
+
+input:focus, textarea:focus {
+    background-color:	#e9edf5;
+}
+
+a:link {
+    text-decoration:	none;
+    color:		#0240a3;
+}
+
+a:visited {
+    text-decoration:	none;
+    color:		#0240a3;
+}
+
+a:active {
+    color:		#000000;
+}
+
+img {
+    border:		none;
+}
+
+legend {
+    color:		#000000;
+    font-weight:	bold;
+    white-space:	nowrap;
+}
+
+fieldset {
+
+    padding-left:	5px;
+    padding-right:	5px;
+    padding-bottom:	5px;
+    border:		none;
+    border-top:		1px solid gray;
+}
+
+/********* custom styles ************/
+
+.center { 
+    text-align          : center;
+}
+
+.top {
+    vertical-align      : top;
+}
+
+.right {
+    float		: right;
+}
+
+.size100 {
+    width		: 100px;
+}
+
+
+/* ---------- settings for DB.pm && WWW.pm output  --------- */
+
+.desc {
+	padding		: 2px;
+}
+
+.value {
+	padding		: 2px;
+	border-top	: solid 1px #9493AD; 
+	border-right	: solid 1px #888888; 
+	border-left	: solid 1px #888888;
+	border-bottom	: solid 1px #9493AD;
+}
+
+.sidemenu {
+	padding-left	: 5px;
+	padding-right	: 5px;
+	padding-bottom	: 5px;
+	border		: none;
+	border-top	: 1px solid gray;
+	border-left	: 1px solid gray;
+}
+
+/* pages */
+
+#page1 {
+	top:80px; 
+	left:10px;
+}
+
+.invoice_pre {
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+/* --- loader ---*/
+
+#loader {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loader td {
+  padding: 3px;
+  background: #ffffff; 
+}
+
+#loader p {
+  border: 3px solid #6E89DD;
+  padding: 10px;
+  margin: 0;
+  background: #EEF0FC;
+}
+
+#loader img {
+  float: left;
+  margin-right: 12px;
+}
+
+#loader strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+#loaderContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  //height: expression(document.documentElement.clientHeight+'px');
+  height: 800px;
+}
+
+#loaderContainer td {
+	padding-top: 150px;
+	padding-left: 200px;
+	vertical-align: top;
+	text-align: center;
+	background-image: url(/res/images/semi-transparent.gif);
+}
+
+#loaderContainer td td {
+	padding-top: 3px;
+	text-align: left;
+}
+/* chhenghong add style */
+#information{
+  width:50%;
+  float: left;
+}
+#image{
+  width:50%;
+  float: right;
+}
+/*#information ul li:before {
+ content: "\0BB \020";
+ }*/
+ #information ul{
+  list-style: none;
+ }
+ #ezecom{
+  margin-top: -33px;
+  padding-bottom: 40px;
+  float:right;
+ }
+ #logo{
+  float: left;
+  margin-top: -69px;
+  margin-left:40px;
+ }
+
